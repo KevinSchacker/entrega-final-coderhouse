@@ -1,6 +1,6 @@
 footer {
     text-align: center;
-    background-color: transparent;
+    background-color: transparentize($color: #aaaaaa56, $amount: 0);
     padding: 10px;
     font-size: 14px;
     font-family: monospace;

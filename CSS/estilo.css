@@ -74,7 +74,7 @@ body {
 
 footer {
   text-align: center;
-  background-color: transparent;
+  background-color: rgba(170, 170, 170, 0.337254902);
   padding: 10px;
   font-size: 14px;
   font-family: monospace;
