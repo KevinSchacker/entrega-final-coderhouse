@@ -18,4 +18,12 @@
             transform: scale(1.4);
         }
     }
+    // Ajustes para vista móvil
+@media (max-width: 430px) {
+        h2 {
+            font-size: 20px; 
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
 }
