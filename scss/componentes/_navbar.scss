@@ -10,16 +10,18 @@
     }
 
     .nav-link {
-        font-size: 24px;
-        color: $secondary-color;
-        @include transition;
+        font-size: 24px !important;
+        color: $primary-color !important;
+        @include transition ;
 
         &.active {
-            color: #fff;
+            color:$primary-color !important;
+            font-weight: bold;
         }
 
         &:hover {
-            color: $primary-color;
+            color: $primary-color !important;
+            font-weight: bold;
         }
     }
 
