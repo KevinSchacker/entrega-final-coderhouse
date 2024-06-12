@@ -234,21 +234,47 @@ footer {
     margin-bottom: 100px;
   }
 }
-.nosotros,
-.seguridad {
+.nosotros {
   text-align: center;
   font-weight: bold;
   color: rgb(134, 29, 34);
 }
-.nosotros p,
-.seguridad p {
+.nosotros h1 {
+  font-weight: bold;
+}
+.nosotros p {
   color: black;
-  font-size: large;
+  font-size: 16px;
   font-weight: lighter;
-  margin-bottom: 3rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: justify;
+}
+.nosotros .marcas {
+  margin-top: 20px;
+}
+.nosotros .marcas h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(134, 29, 34);
+  font-weight: bold;
+}
+.nosotros .marcas .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nosotros .marcas .logos .logo {
+  width: 150px;
+  margin: 20px;
+  text-align: center;
+}
+.nosotros .marcas .logos .logo img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80px;
 }
 
 .parent {
@@ -256,12 +282,10 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100%;
-  /* O la altura que desees */
 }
 
 .map-container {
   width: 70%;
-  /* Ajusta el tamaño según sea necesario */
   margin: 0 auto;
 }
 
@@ -269,6 +293,12 @@ iframe {
   width: 100%;
   height: auto;
   margin-bottom: 40px;
+}
+
+.nosotros .marcas .logos .logo img {
+  max-width: 150px !important;
+  height: auto !important;
+  max-height: 80px !important;
 }
 
 .seguridad-page {
